@@ -21,6 +21,23 @@ Skill 文件：
 
 [查看 SKILL.md](.codex/skills/aihanlab-xhs-knowledge-notes/SKILL.md)
 
+### `human-writing`
+
+通用中文创作与改稿 Skill，适用于知乎回答、论坛长帖、公众号文章、博客、评论、人物故事、历史叙事、新闻与行业解读、科普、教程、评测、个人叙事、小说、对白、口播和演讲稿。
+
+它负责：
+
+- 先检查现实写作的材料是否足够，避免用重复解释凑篇幅
+- 区分现实写作、虚构创作和混合创作的事实边界
+- 保留自然中文韵律、具体细节和清晰判断
+- 清理机构腔、营销腔、模型腔和常见翻案句
+- 提供论坛长帖、现实题材、虚构创作、特殊格式和改稿参考规则
+- 通过脚本检查成稿中的硬性写作禁令
+
+Skill 文件：
+
+[查看 SKILL.md](.codex/skills/human-writing/SKILL.md)
+
 ## 触发方式
 
 你可以这样调用：
@@ -46,8 +63,12 @@ Skill 文件：
 ```text
 .codex/
 └── skills/
-    └── aihanlab-xhs-knowledge-notes/
-        └── SKILL.md
+    ├── aihanlab-xhs-knowledge-notes/
+    │   └── SKILL.md
+    └── human-writing/
+        ├── SKILL.md
+        ├── references/
+        └── scripts/
 ```
 
 ## 后续计划
