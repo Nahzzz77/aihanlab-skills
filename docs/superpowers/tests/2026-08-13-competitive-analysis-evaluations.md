@@ -95,7 +95,15 @@ Record each forward-test result here after the Skill exists.
 
 | Scenario | Evidence contract | Industry overlay | Weighted comparison | Strategic action | Safety | Result |
 |---|---|---|---|---|---|---|
-| A: Travel | Pending | Pending | Pending | Pending | Pending | Pending |
-| B: AI SaaS | Pending | Pending | Pending | Pending | Pending | Pending |
-| C: Content platform | Pending | Pending | Pending | Pending | Pending | Pending |
+| A: Travel | Pass: all five labels used appropriately | Pass: feasibility, freshness, routing, disruption, location/social privacy | Pass: 7 rows, 100% weights, 50% coverage, sensitivity stated | Pass: match, three differentiators, deprioritize, validation, threat | Pass | Pass |
+| B: AI SaaS | Pass: claims, visible SSO, reviews, and unknowns separated | Pass: grounding, latency, permissions, governance, security gates | Pass: 7 rows, 100% weights, 45% coverage, directional caveat | Pass: parity, two beta bets, defer, validate, threat | Pass | Pass |
+| C: Content platform | Pass: direct, reported, inferred, and unknown evidence separated | Pass: discovery, cold start, creator feedback, moderation, trust | Pass: 7 rows, 100% weights, 70% coverage, sensitivity stated | Pass: match, reject, differentiate, deprioritize, validation | Pass | Pass |
 
+## Additional generalization checks
+
+- **Connected hardware:** Passed. The response adapted to pairing, battery, local/cloud boundaries, connectivity recovery, repairability, warranty, accessibility, and long-term reliability. It kept official specifications, visible controls, small-sample reviews, and missing evidence separate.
+- **Services marketplace:** Passed. The response adapted to liquidity, supply density, trust operations, dispute recovery, provider economics, take rate, and repeat booking. With only 25% weighted quality coverage, it correctly withheld an overall score and prioritized a single-city validation gate.
+
+## GREEN conclusion
+
+Across five categories, the Skill produced the same evidence and quality vocabulary while changing the decision dimensions. The RED controls produced thoughtful work but invented incompatible taxonomies such as `[OBS]/[TEST]/[UNK]`, `Observed/Vendor-claimed/N/T`, and `[VISIBLE]/[DOC]/NR`. The Skill therefore adds repeatability and cross-report comparability rather than merely adding more analysis prose.

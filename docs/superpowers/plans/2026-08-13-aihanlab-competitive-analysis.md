@@ -124,7 +124,7 @@ Describe all three Skills, installation and invocation examples, directory layou
 - [ ] **Step 1: Run structural validation**
 
 ```bash
-python /Users/mixingtumima0000/.codex/skills/.system/skill-creator/scripts/quick_validate.py .codex/skills/aihanlab-competitive-analysis
+python3 ~/.codex/skills/.system/skill-creator/scripts/quick_validate.py .codex/skills/aihanlab-competitive-analysis
 ```
 
 Expected: validation succeeds with no frontmatter or naming errors.
@@ -176,4 +176,3 @@ git push -u origin agent/add-competitive-analysis-skill
 - [ ] **Step 4: Open a draft pull request**
 
 Create a draft PR against `main` whose description states what changed, why, licensing/attribution, safety boundaries, and the validation performed.
-

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AiHanLab 竞品分析"
+  short_description: "基于证据的跨行业产品竞品分析、定位判断与战略建议方法"
+  default_prompt: "使用 $aihanlab-competitive-analysis 分析这个产品的竞品定位、真实流程、差异化机会和 MVP 建议。"
